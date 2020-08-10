@@ -1,0 +1,55 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "async",
+      "rootUri": "file:///Users/hyunseokoh/.pub-cache/hosted/pub.dartlang.org/async-2.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "collection",
+      "rootUri": "file:///Users/hyunseokoh/.pub-cache/hosted/pub.dartlang.org/collection-1.14.13",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///Users/hyunseokoh/.pub-cache/hosted/pub.dartlang.org/meta-1.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "1.12"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///Users/hyunseokoh/.pub-cache/hosted/pub.dartlang.org/path-1.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "pedantic",
+      "rootUri": "file:///Users/hyunseokoh/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "vm_service",
+      "rootUri": "file:///Users/hyunseokoh/.pub-cache/hosted/pub.dartlang.org/vm_service-4.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
+      "name": "watcher",
+      "rootUri": "file:///Users/hyunseokoh/.pub-cache/hosted/pub.dartlang.org/watcher-0.9.7+15",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "vm_test",
+      "rootUri": "../",
+      "packageUri": "lib/"
+    }
+  ],
+  "generated": "2020-08-10T15:57:47.185666Z",
+  "generator": "pub",
+  "generatorVersion": "2.10.0-4.0.dev.flutter-b9c5118c73"
+}

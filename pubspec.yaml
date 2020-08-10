@@ -1,0 +1,8 @@
+name: reload_on_save
+description: Reload on save.
+version: 0.0.1
+author: algoshipda
+
+dependencies:
+  watcher: ^0.9.7+15
+  vm_service: ^4.2.0
