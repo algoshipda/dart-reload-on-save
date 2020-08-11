@@ -44,14 +44,20 @@ class MyArgParser {
   static String WS_ABBR = 'w';
 
   MyArgParser(this.arguments) {
-    parser.addOption(
-      'input',
-      abbr: 'i',
-    );
-    parser.addOption(
-      'ws',
-      abbr: 'w',
-    );
+    List<List<String>> options = [
+      [MyArgParser.INPUT, MyArgParser.INPUT_ABBR],
+      [MyArgParser.WS, MyArgParser.WS_ABBR],
+    ];
+
+    for (var option in options) {
+      String name = option[0];
+      String abbr = option[1];
+      parser.addOption(
+        name,
+        abbr: abbr,
+      );
+    }
+
     argResults = parser.parse(arguments);
 
     if (argResults[MyArgParser.INPUT].isEmpty) {
