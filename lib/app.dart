@@ -60,11 +60,11 @@ class MyArgParser {
 
     argResults = parser.parse(arguments);
 
-    if (argResults[MyArgParser.INPUT].isEmpty) {
+    if (argResults[MyArgParser.INPUT] == null) {
       throw RequiredParamNotSpecified(MyArgParser.INPUT);
     }
 
-    if (argResults[MyArgParser.WS].isEmpty) {
+    if (argResults[MyArgParser.WS] == null) {
       throw RequiredParamNotSpecified(MyArgParser.WS);
     }
   }
