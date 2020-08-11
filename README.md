@@ -4,3 +4,4 @@
 ## 참고
 - [Dart VM Service Protocol](https://github.com/dart-lang/sdk/blob/master/runtime/vm/service/service.md)
 - [Dart CLI App](https://dart.dev/tutorials/server/cmdline)
+- [Effective Dart](https://dart.dev/guides/language/effective-dart/design)
