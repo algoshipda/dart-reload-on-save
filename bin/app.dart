@@ -16,8 +16,17 @@ Future<void> main(List<String> arguments) async {
 
   VM vm = await serviceClient.getVM();
   String isolateId = vm.isolates[0].id;
-  watcher.events.listen((event) =>
-      serviceClient.callMethod('s0.reloadSources', isolateId: isolateId));
+  watcher.events.listen((event) async {
+    try {
+      await serviceClient.callMethod('s0.reloadSources', isolateId: isolateId);
+    } catch (e) {
+      if (e is RPCError) {
+        print('[RPCError] ${e.message}');
+      } else {
+        throw e;
+      }
+    }
+  });
 
   await watcher.ready;
 }
